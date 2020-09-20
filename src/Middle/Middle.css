@@ -1,0 +1,47 @@
+.body{
+    margin: 0 auto;
+    min-height: 305px;
+    width: 80%;
+    margin-top: 70px;
+    border-bottom: solid #EEE;
+
+}
+.body p{
+    font-size: 24px;
+    text-align: center;
+    margin: 20px auto;
+    color: #82878C;
+    line-height: 1.5;
+    min-height: 100px;
+    width: 100%;
+    font-weight: 200;
+}
+.body .imgBox{
+    margin: 0 auto;
+    height: 400px;
+    width:700px;
+    background-image: url("./body.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 3px solid seashell;
+    margin-top: 50px;
+}
+#headShow{
+    margin-top: 50px;
+    color:black;
+    font-weight: 400;
+    font-size: 1.65em;
+    line-height: 1;
+    font-family: inherit;
+}
+
+@media screen and (max-width: 600px){
+    
+    .body .imgBox{
+        margin: 0 auto;
+        min-height: 250px;
+        width: 400px;
+    }
+
+}

@@ -1,0 +1,78 @@
+.header{
+    top: 0px;
+    position: relative;
+    min-height: 140px;
+    background-color:#23282d;
+    opacity: 0.95;
+    color: seashell;
+}
+.header .wrapper{
+        width: 820px;
+        margin: 0 auto;
+        clear: both;
+}
+.headh1{
+height: 88px;
+width: 300px;
+background-image: url('//s.w.org/style/images/wporg-logo.svg?3)');
+background-repeat: no-repeat;
+background-position: center;
+background-size: 290px 46px;
+}
+.globalSearch{
+    color: #b4b9be;
+    float: right;
+    font-size: 7px; 
+    background: #191e23;
+    width: 256px;
+    height: 34px;
+    color: #b4b9be;
+    font-size: 12px;
+    outline: none;
+    font-family: "Open Sans", sans-serif;
+    position: relative;
+    top: -57px;
+}
+.wrapper nav{
+    display: flex;
+    z-index: 25;
+    width: 800px;
+
+    
+}
+.wrapper ul{
+    margin-top: 15px;
+
+}
+ .wrapper ul li{
+    display: inline-block;
+    cursor: pointer;
+    color:seashell;
+    list-style: none;
+    padding: 0px 5px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.wrapper ul li:hover{
+    color:#4ca6cf; 
+}
+.headButton{
+    float: right;
+    font-size: 13px;
+    height: 40px;
+    line-height: 1.5;
+    width: 100px;
+    border: 3px solid #0073aa;
+    border-radius: 4px;
+    outline: none;
+    color: seashell;
+    background-color: #0073aa;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: -35px;
+} 
+.headButton:hover{
+    background-color: #4ca6cf;
+}
