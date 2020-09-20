@@ -1,6 +1,5 @@
 import React from 'react';
 import './Features.css';
-import onclickhere from './javascripthere';
 
 class Features extends React.Component {
     render () {
@@ -12,7 +11,6 @@ class Features extends React.Component {
         <p> Discover more sites built with WordPress.</p>
     </div>
     <div className="features">
-        <button onClick={onclickhere()}>Click Me</button>
         <p id="feat">Powerful Features</p>
         <p>Limitless possibilities. What will you create?</p>
         <div className="featuresHere">
